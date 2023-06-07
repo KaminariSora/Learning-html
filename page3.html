@@ -6,11 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>page 3</title>
+    <style>
+        div{
+            border:1px solid black;
+        }
+        span{
+            border:1px solid red;
+        }
+    </style>
 </head>
 
 <body>
     <h1>รายการสินค้า</h1>
-    <table border="1">
+    <table border="1" width="50%" cellpadding="10" cellspacing="5">
         <thead>
             <th>รหัสสินค้า</th>
             <th>ภาพสินค้า</th>
@@ -19,37 +27,43 @@
             <th>ซื้อสินค้า</th>
         </thead>
         <tbody>
-            <tr>
+            <tr bgcolor="pink" align="center">
                 <td>ID 001</td>
                 <td>
                     <img src="images/FB_IMG_1672299618263.jpg" alt="" width="120px" height="120px">
                 </td>
-                <td>bocchi the rock</td>
+                <td bgcolor="red">bocchi the rock</td>
                 <td>100.0 Yen</td>
-                <td>
+                <td rowspan="2">
                     <a href="#">สั่งซื้อ</a>
                 </td>
             </tr>
-            <tr>
+            <tr bgcolor="yellow" align="center">
                 <td>ID 002</td>
                 <td>
                     <img src="images/FB_IMG_1672299622802.jpg" alt="" width="120px" height="120px">
                 </td>
-                <td>bocchi the rock</td>
+                <td bgcolor="blue">bocchi the rock</td>
                 <td>100.0 Yen</td>
-                <td>
+                <!-- <td>
                     <a href="#">สั่งซื้อ</a>
-                </td>
+                </td> -->
             </tr>
             <tr></tr>
         </tbody>
         <tfoot>
-            <tr>
-                <td>ราคารวม</td>
-                <td></td>
+            <tr align="right">
+                <td colspan="5"><b>ราคารวม: 500 Yen</b></td>
             </tr>
         </tfoot>
     </table>
+    <span>KaminariSora</span>
+    <span>KaminariSora</span>
+    <span>KaminariSora</span>
+    <hr>
+    <div>KaminariSora</div>
+    <div>KaminariSora</div>
+    <div>KaminariSora</div>
 </body>
 
 </html>
